@@ -1,0 +1,12 @@
+1
+najjasniejszy: 221
+najciemniejszy: 7
+
+2
+ilosc_nie_majacych_osi: 149
+
+3
+753 
+
+4
+5

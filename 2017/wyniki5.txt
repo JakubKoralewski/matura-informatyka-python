@@ -1,0 +1,19 @@
+1 a 
+towarzyskie: 6
+ligowe: 113
+pucharowe: 25
+
+1 b
+Max: ('2007', 21)
+
+2
+Nocne Pumy, Zwinne Mewy
+
+3
+Wygrane: 579
+Przegrane: 452
+Zremisowane: 170
+
+4
+ilosc sedziow niepucharowych: 22
+

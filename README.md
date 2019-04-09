@@ -6,9 +6,11 @@ Całe w Pythonie. Odpowiedzi sprawdzone i poprawne.
 
 #### Odpowiedzi
 
-Zadanie 4: [wyniki4.txt](2017/wyniki4.txt)
-Zadanie 5: [wyniki5.txt](2017/wyniki5.txt)
-Zadanie 6: [wyniki6.txt](2017/wyniki6.txt)
+- Zadanie 4: [wyniki4.txt](2017/wyniki4.txt)
+
+- Zadanie 5: [wyniki5.txt](2017/wyniki5.txt)
+
+- Zadanie 6: [wyniki6.txt](2017/wyniki6.txt)
 
 ## 2018
 

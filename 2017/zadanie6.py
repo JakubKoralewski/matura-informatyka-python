@@ -136,8 +136,42 @@ def zad4():
                 flipped[x] = []
             flipped[x].append(piksele[y][x])
     print(flipped)
-
 #zad4()
+
+
+def wszystkie_zadania():
+    for x in range(1, 5):
+        odpal_zadanie(x)
+
+def odpal_zadanie(x: int):
+    if x < 0 or x > 5:
+        print('Zły numer zadania. <1-4>')
+        return
+    print(f'\n\n__________________ZADANIE nr.{x}:\n')
+    if x == 1:  
+        zad1()
+    elif x == 2:
+        zad2()
+    elif x == 3:
+        zad3()
+    elif x == 4:
+        zad4stackoverflow()
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description='Zadanie 6 z informatyki arkusz 2017.')
+    parser.add_argument('podpunkt', metavar='N', type=str, nargs='*',
+                   help='numer podpunktu zadania jakie odpalic, np. `1`, `1 2 3`, `4`, `*`')
+    args = parser.parse_args()
+    if len(args.podpunkt) == 0:
+        wszystkie_zadania()
+    else:
+        for arg in args.podpunkt:
+            if arg == '*':
+                wszystkie_zadania()
+                break
+            arg = int(arg)
+            odpal_zadanie(arg)
 
 
 

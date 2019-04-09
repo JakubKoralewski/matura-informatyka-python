@@ -16,7 +16,7 @@ with open(get_dane('cennik.txt')) as cennik_file:
         line = line.strip().split('\t')
         cennik[line[0].strip()] = float(line[1].replace(',','.'))
 
-def zad3(cukier):
+def zad1(cukier):
     suma = {}
     for line in cukier:
         nip = line[1]
@@ -25,7 +25,7 @@ def zad3(cukier):
         suma[nip] = obecna_ilosc + ilosc
     suma = sorted(suma.items(), key= lambda kv: kv[1], reverse=True)[:3]
     print(f'top3: {suma}')
-#zad3(cukier)
+#zad1(cukier)
 
 def zad2(cukier, cennik):
     przychod = 0
@@ -49,6 +49,7 @@ def zad3(cukier):
         file.write('rok, ilosc\n')
         for rok in zestawienie.items():
             file.write(f'{rok[0]}, {rok[1]}\n')
+    print('Zapisano plik zestawienie.csv. Należy wykonać wykres w Excelu.')
 #zad3(cukier)
 
 
@@ -94,15 +95,15 @@ def zad5(cukier_lista):
         cukier = line[2]
         rok, miesiac, dzien = data[:4], data[5:7], data[8:11]
         if ostatni_miesiac != miesiac:
-            print(f'rok: {rok}, miesiac: {miesiac}, dzien: {dzien}, ilosc_cukru: {ilosc_cukru} ')
-            print('Zaczął się nowy miesiąc')
+            #print(f'rok: {rok}, miesiac: {miesiac}, dzien: {dzien}, ilosc_cukru: {ilosc_cukru} ')
+            #print('Zaczął się nowy miesiąc')
             nowy_nabytek = 0
             while nowy_nabytek + ilosc_cukru < 5000:
                 nowy_nabytek += 1000
             if nowy_nabytek >= 4000:
                 dokupy.append((data, nowy_nabytek))
             ilosc_cukru += nowy_nabytek
-            print(f'Kupiono {nowy_nabytek}kg cukru. Jest teraz {ilosc_cukru}kg cukru.')
+            #print(f'Kupiono {nowy_nabytek}kg cukru. Jest teraz {ilosc_cukru}kg cukru.')
             
 
         ilosc_cukru -= cukier
@@ -112,8 +113,47 @@ def zad5(cukier_lista):
         ostatni_miesiac = miesiac
     print(f'Dokupy co najmniej 4000zl: {dokupy}')
     print(f'dokupy: było tak {len(dokupy)} razy.')
-
 #zad5(cukier)
+
+def wszystkie_zadania():
+    for x in range(1, 6):
+        odpal_zadanie(x)
+
+def odpal_zadanie(x: int):
+    if x < 0 or x > 5:
+        print('Zły numer zadania. <1-5>')
+        return
+    print(f'\n\n\n__________________ZADANIE nr.{x}:\n')
+    if x == 1:  
+        zad1(cukier)
+    elif x == 2:
+        zad2(cukier, cennik)
+    elif x == 3:
+        zad3(cukier)
+    elif x == 4:
+        zad4(cukier)
+    elif x == 5:
+        zad5(cukier)
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description='Zadanie 4 z informatyki arkusz 2017.')
+    parser.add_argument('podpunkt', metavar='N', type=str, nargs='*',
+                   help='numer podpunktu zadania jakie odpalic, np. `1`, `1 2 3`, `4 5`, `*`')
+    args = parser.parse_args()
+    if len(args.podpunkt) == 0:
+        wszystkie_zadania()
+    else:
+        for arg in args.podpunkt:
+            if arg == '*':
+                wszystkie_zadania()
+                break
+            arg = int(arg)
+            odpal_zadanie(arg)
+            
+
+    #print(args.podpunkt)
+
 
 
 

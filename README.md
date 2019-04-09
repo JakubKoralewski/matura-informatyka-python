@@ -1,4 +1,4 @@
-# [PL] Matura z informatyki - rozwiązania do arkuszy w Pythonie repo
+# [PL] Matura z informatyki - rozwiązania do arkuszy w Pythonie
 
 ## 2017
 

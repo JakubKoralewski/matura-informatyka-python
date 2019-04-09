@@ -159,7 +159,7 @@ def odpal_zadanie(x: int):
 
 if __name__ == '__main__':
     import argparse
-    parser = argparse.ArgumentParser(description='Zadanie 6 z informatyki arkusz 2017.')
+    parser = argparse.ArgumentParser(description='Zadanie 6 z informatyki arkusz 2017. Podpunkty od 1 do 4.')
     parser.add_argument('podpunkt', metavar='N', type=str, nargs='*',
                    help='numer podpunktu zadania jakie odpalic, np. `1`, `1 2 3`, `4`, `*`')
     args = parser.parse_args()

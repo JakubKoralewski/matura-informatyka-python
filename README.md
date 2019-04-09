@@ -1,5 +1,7 @@
 # [PL] Matura z informatyki - rozwiązania do arkuszy w Pythonie
 
+*Short explanation in English why Polish [here](README.en.md).*
+
 ## 2017
 
 Całe w Pythonie. Odpowiedzi sprawdzone i poprawne.

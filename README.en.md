@@ -1,4 +1,4 @@
-# Polish Matura exam
+# Polish IT Matura exam
 
 I chose to mostly use the English language despite regretting making the mistake of using the Polish language on GitHub, because this is mainly a Polish topic targeted for young adults about to take the [Matura exam](https://en.wikipedia.org/wiki/Matura) - secondary school exit exam or "maturity diploma". Matura is a matriculation examination and can be compared to A-Level exams or Abitur<sup>[1](https://en.wikipedia.org/wiki/Matura)</sup>.
 

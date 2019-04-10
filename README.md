@@ -20,6 +20,8 @@ Następnie mamy różne możliwości. Aby odpalić wszystkie podpunkty w danym z
 
 ```bash
 $ python zadanie4.py
+
+// Poniższy syntax tylko na Windowsie
 $ python zadanie5.py *
 ```
 
@@ -44,6 +46,15 @@ Albo po prostu podejrzeć wygenerowane już odpowiedzi tutaj:
 - Zadanie 5: [wyniki5.txt](2017/wyniki5.txt)
 
 - Zadanie 6: [wyniki6.txt](2017/wyniki6.txt)
+
+## 2016
+
+Jedynie zadanie 6. 
+Zasada korzystania identyczna jak w 2017.
+Możesz korzystać z komend. 
+Odpowiedzi wygenerowane w folderze /2016.
+
+Generowanie zadania poprzez jego odpalanie za pomocą komendy czy w jakikolwiek inny sposób który wywołuje funkcję dotyczącą danego zadania jest równoważne z wygenerowaniem i nadpisaniem pliku z wynikami do danego zadania.
 
 ## 2018
 

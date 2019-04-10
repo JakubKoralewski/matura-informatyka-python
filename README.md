@@ -12,6 +12,7 @@ Chcąc uruchomić np.: [2017/zadanie4.py](2017/zadanie4.py), należy wykonać po
 
 ```bash
 $ git clone https://github.com/JakubKoralewski/matura-informatyka-python.git
+$ cd matura-informatyka-python
 $ cd 2017
 ```
 

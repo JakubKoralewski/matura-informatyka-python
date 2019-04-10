@@ -1,0 +1,25 @@
+1
+Najlepszy sezon: ('2010', 136.0)
+Najlepszy wyscig: ('Australia', 18.0)
+
+2
+Najmniej razy w ('Indie', 20)
+
+3
+Zwycięzca w 2000 roku to Michael Schumacher. Zdobył 108.0 pkt.
+Zwycięzca w 2006 roku to Fernando Alonso. Zdobył 134.0 pkt.
+Zwycięzca w 2012 roku to Sebastian Vettel. Zdobył 281.0 pkt.
+
+4
+{
+ 'Australia': 2,
+ 'Brazylia': 2,
+ 'Finlandia': 1,
+ 'Francja': 2,
+ 'Hiszpania': 1,
+ 'Japonia': 1,
+ 'Meksyk': 1,
+ 'Niemcy': 4,
+ 'Wenezuela': 1,
+ 'Wielka Brytania': 3
+ }

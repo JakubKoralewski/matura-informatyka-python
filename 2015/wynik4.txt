@@ -1,0 +1,10 @@
+1
+422
+
+2
+Podzielne przez 2: 500
+Podzielne przez 8: 123
+
+3
+Maksymalna wartość w linii 925
+Minimalna wartość w linii 859

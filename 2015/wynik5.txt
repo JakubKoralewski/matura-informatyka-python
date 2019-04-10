@@ -1,0 +1,12 @@
+1
+{'D': 36530387, 'C': 57649017, 'A': 33929579, 'B': 41736619}
+
+2
+{'A': 3, 'B': 4, 'C': 8, 'D': 4}
+W kraju 19
+
+3
+125930205
+Największą ilość ma ('w12C', 16699503)
+Liczba województw z przeludnieniem od 2014-2025 włącznie: 18
+

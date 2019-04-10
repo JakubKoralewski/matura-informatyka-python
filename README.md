@@ -2,11 +2,7 @@
 
 *Short explanation in English why Polish [here](README.en.md).*
 
-## 2017
-
-Całe w Pythonie. Odpowiedzi sprawdzone i poprawne.
-
-### Aby uruchomić
+## Jak uruchomić (nie działa w 2018)
 
 Chcąc uruchomić np.: [2017/zadanie4.py](2017/zadanie4.py), należy wykonać podaną listę poleceń.
 
@@ -39,23 +35,47 @@ Aby sprawdzić ile podpunktów ma dane zadanie:
 $ python zadanie4.py --help
 ```
 
-Albo po prostu podejrzeć wygenerowane już odpowiedzi tutaj:
+## 2015
 
-- Zadanie 4: [wyniki4.txt](2017/wyniki4.txt)
+Całe w Pythonie, podobnie jak 2017.
 
-- Zadanie 5: [wyniki5.txt](2017/wyniki5.txt)
+Odpowiedzi tutaj:
 
-- Zadanie 6: [wyniki6.txt](2017/wyniki6.txt)
+- [wynik4.txt](2015/wynik4.txt)
+
+- [wynik5.txt](2015/wynik5.txt)
+
+- [wynik6.txt](2015/wynik6.txt)
 
 ## 2016
 
 Jedynie zadanie 6. 
-Zasada korzystania identyczna jak w 2017.
-Możesz korzystać z komend. 
-Odpowiedzi wygenerowane w folderze /2016.
 
-Generowanie zadania poprzez jego odpalanie za pomocą komendy czy w jakikolwiek inny sposób który wywołuje funkcję dotyczącą danego zadania jest równoważne z wygenerowaniem i nadpisaniem pliku z wynikami do danego zadania.
+Odpowiedzi tutaj:
+
+- [wyniki6_1.txt](2016/wyniki_6_1.txt)
+
+- [wyniki6_2.txt](2016/wyniki_6_2.txt)
+
+- [wyniki6_3.txt](2016/wyniki_6_3.txt)
+
+Generowanie zadania poprzez jego odpalanie za pomocą komendy czy w jakikolwiek 
+inny sposób który wywołuje funkcję dotyczącą danego zadania jest równoważne z 
+wygenerowaniem i nadpisaniem pliku z wynikami do danego zadania.
+
+## 2017
+
+Całe w Pythonie. Odpowiedzi sprawdzone i poprawne.
+
+Odpowiedzi tutaj:
+
+- [wyniki4.txt](2017/wyniki4.txt)
+
+- [wyniki5.txt](2017/wyniki5.txt)
+
+- [wyniki6.txt](2017/wyniki6.txt)
+
 
 ## 2018
 
-Python + Access. Nic nie sprawdzone. Kod brzydki. Może nie działać.
+Python + Access. Nic nie sprawdzone. Kod brzydki. CamelCase w Pythonie. Może nie działać.

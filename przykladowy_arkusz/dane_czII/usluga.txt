@@ -1,0 +1,27 @@
+id	nazwa	cena
+1	wymiana olejow silnikowych	30
+2	wymiana olejow do skrzyni biegow	45
+3	wymiana plynu chlodniczego	40
+4	wymiana klockow hamulcowych	60
+5	wymiana paskow klinowych	40
+6	wymiana tarcz hamulcowych	85
+7	wymiana plynu hamulcowego	40
+8	wymiana bebnow hamulcowych	70
+9	naprawa hamulca recznego	89
+10	wymiana filtra powietrza	12
+11	wymiana filtra paliwa	24
+12	wymiana filtra kabiny	24
+13	wymiana akumulatora	15
+14	wymiana amortyzatorow przednich	70
+15	wymiana amortyzatorow tylnych	40
+16	wymiana swiec zaplonowych	25
+17	wymiana swiec zarowych	32
+18	pelny przeglad klimatyzacji	150
+19	wymiana opon	70
+21	naprawa uszkodzonych opon	22
+22	kontrola geometrii kol	50
+23	przechowywanie opon	40
+24	przeglad samochodu	150
+25	diagnostyka komputerowa	80
+26	odgrzybianie klimatyzacji samochodowej	125
+27	dezynfekcja ozonowa ukladu klimatyzacji	60

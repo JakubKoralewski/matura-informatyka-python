@@ -1,0 +1,54 @@
+a
+
+Typy rowerów	Suma
+gorski_rekreacyjny	311
+gorski_sportowy	289
+miejski	200
+play-bike	14
+rowerki_i_pojazdy	115
+skladany	290
+szosowy_miejski	231
+szosowy_wyczynowy	259
+uniwersalny	291
+
+
+
+b
+
+Rodzaj	Œrednia z Cena
+damskie	1 424,43 z³
+dziecko	803,35 z³
+meskie	1 548,66 z³
+
+c
+
+damskie	677
+bialy	92
+brazowy	60
+czarny	87
+czerwony	143
+fioletowy	19
+niebieski	103
+rozowy	25
+srebrny	83
+zielony	65
+dziecko	677
+bialy	63
+brazowy	54
+czarny	19
+czerwony	150
+fioletowy	24
+niebieski	130
+rozowy	11
+srebrny	167
+zielony	59
+meskie	646
+bialy	68
+brazowy	51
+czarny	88
+czerwony	45
+fioletowy	11
+niebieski	116
+rozowy	2
+srebrny	215
+zielony	50
